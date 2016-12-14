@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="Len" />
+
+
+
+<meta name="description" content="关于我@(java)[微信智能硬件|app接口|智能家居]
+熟悉JSP、Servlet、JavaScript、JQuery、Servlet、Xml、Ajax、 mybatis、Web Service、JPA、SVN、Maven、Lucene与调用支付宝支付，微信支付，银联支付，环信聊天，短信接口，物流接口等主流接口等技术。熟练运用SSH (Struts、Spring、Hibernate)等框架。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Len的技术空间">
+<meta property="og:url" content="http://len.github.io/about/index.html">
+<meta property="og:site_name" content="Len的技术空间">
+<meta property="og:description" content="关于我@(java)[微信智能硬件|app接口|智能家居]
+熟悉JSP、Servlet、JavaScript、JQuery、Servlet、Xml、Ajax、 mybatis、Web Service、JPA、SVN、Maven、Lucene与调用支付宝支付，微信支付，银联支付，环信聊天，短信接口，物流接口等主流接口等技术。熟练运用SSH (Struts、Spring、Hibernate)等框架。">
+<meta property="og:updated_time" content="2016-12-13T08:56:09.954Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Len的技术空间">
+<meta name="twitter:description" content="关于我@(java)[微信智能硬件|app接口|智能家居]
+熟悉JSP、Servlet、JavaScript、JQuery、Servlet、Xml、Ajax、 mybatis、Web Service、JPA、SVN、Maven、Lucene与调用支付宝支付，微信支付，银联支付，环信聊天，短信接口，物流接口等主流接口等技术。熟练运用SSH (Struts、Spring、Hibernate)等框架。">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="Len的技术空间" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>Len的技术空间</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Len</a></h1>
+        </hgroup>
+
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa 新浪微博" href="http://weibo.com/nitingdedao11?refer_flag=1001030101_&is_hot=1" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/java-hello/">java hello</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Len</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Len</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa 新浪微博" target="_blank" href="http://weibo.com/nitingdedao11?refer_flag=1001030101_&is_hot=1" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/about/index.html" class="article-date">
+      <time datetime="2016-12-13T08:56:09.954Z" itemprop="datePublished">2016-12-13</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <style>
+    .article-meta { display: none; }
+    #container .article .article-title { padding-right: 0; }
+    .article-header {
+        padding: 0;
+        padding-top: 26px;
+        border-left: none;
+        text-align: center;
+    }
+    .article-header:hover { border-left: none; }
+    .article-title { font-size: 1.6em }
+    .article-entry hr { margin: 0;}
+    .article-meta,
+    #container .article-info-post.article-info { display: none;}
+    #container .article .article-title { padding: 0; }
+</style>
+
+
+          
+        <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>@(java)[微信智能硬件|app接口|智能家居]</p>
+<pre><code>熟悉JSP、Servlet、JavaScript、JQuery、Servlet、Xml、Ajax、 mybatis、Web Service、JPA、SVN、Maven、Lucene与调用支付宝支付，微信支付，银联支付，环信聊天，短信接口，物流接口等主流接口等技术。熟练运用SSH (Struts、Spring、Hibernate)等框架。
+</code></pre><h2 id="个人资料"><a href="#个人资料" class="headerlink" title="个人资料"></a>个人资料</h2><ul>
+<li>姓名: [王锥强][3]</li>
+<li><p>英文名: [Len][3]</p>
+</li>
+<li><p>Email: <a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#58;&#56;&#x37;&#50;&#x31;&#x34;&#x33;&#56;&#52;&#56;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#x6d;">&#56;&#x37;&#50;&#x31;&#x34;&#x33;&#56;&#52;&#56;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#x6d;</a></p>
+</li>
+</ul>
+<p>##项目经验</p>
+<blockquote>
+<p><strong>Note:</strong> 骑客平衡车<br><strong>Date:</strong>2015/12-2016/3<br>项目描述：<br>该项目是基于平衡车的社交软件，聊天，论坛，交友，定位等功能。<br>责任描述：<br>参与该项目的全部过程从需求分析，以及项目的架构，数据库的设计，服务器代码的编写。</p>
+<p><strong>Note:</strong>  22度智能家居<br><strong>Date:</strong>2015/11-2016/1<br>项目描述：<br>该项目是属于智能家居类型的产品，是通过手机app控制wifi插头以达到将锅炉开启与关闭。<br>责任描述：<br>参与该项目的服务器全部架构，硬件协议定义与各个端的开发工程师协调开发，协调开发小组快速开发。</p>
+<p><strong>Note:</strong>晓风空瀞<br><strong>Date:</strong>2015/7-2015/11<br>项目描述：<br>该app是属于智能家居的类型的，主要是采用手机app控制家用净化器<br>责任描述：<br>参与项目的全部过程，从一开始的需求分析，以及数据库的开发与设计，以及硬件与服务器的通讯的协议参与，后台管理系统的的界面开发</p>
+<p><strong>Note:</strong> 优格<br><strong>Date:</strong>2015/6-2015-12</p>
+<p>项目描述：<br>优格C2D平台是国内第一个消费者直接对接设计师发生交流、购买或在线一对一定制的服装交流交易平台。<br>设计师可以在平台上发布自己的最新作品，除了设计环节以外的生产、销售、售后等环节都由优格平台负责！设计师并能获得高额的分成收益。<br>责任描述：<br>参与软件的开发的大部分过程，从刚开始的需求分析，以及数据库的开发与设计，该app是一个网上商城的app,其中包括下订单，支付，后台发货，查物流，确认收货等等。</p>
+<p><strong>Note:</strong>卡丘熊睡前灯语<br><strong>Date:</strong>2015/5-2015/7<br>项目描述：<br>该项目是基于手机app通过蓝牙与灯泡进行通讯与app的网络播放器的结合<br>责任描述：<br>参与软件的开发的大部分过程，从刚开始的需求分析，以及数据库的开发与设计，该app分为硬件与音频部分，音频分类是基于调用后台接口，下载与上传，以及用户资料的完善，后台管理系统的的界面开发</p>
+<p><strong>Note:</strong>微网智能家居<br><strong>Date:</strong>2015/1-2015/4<br>项目描述：<br>是一个用手机控制家用电器的app<br>责任描述：<br>参与软件的开发的全部过程，从刚开始的需求分析，以及数据库的开发与设计，app调用接口app通过服务器与硬件通讯，后台管理系统的的界面开发。</p>
+<p><strong>Note:</strong> 办公自动化系统<br><strong>Date:</strong> 2014/6-2014/12<br>项目描述：<br>办公管理系统主要包括 权限管理、文档管理、人力管理、假期管理、通讯录管理模块等<br>该系统的主要作用：建立内部的通信平台、建立信息发布的平台、文档管理的自动化、行政日常事务处理、决策支持的科学化、安全机制的可靠性<br>责任描述：<br>本人负责模块：文档管理、权限管理模块<br>权限管理模块则又划分为：<br>用户管理 ， 角色管理 ，操作管理 ，角色绑定用户管理 ， 角色绑定操作管理<br>文档管理模块：<br>上传文档，下载文档，删除文档，修改文档</p>
+<p><strong>Note:</strong> 人事管理系统<br><strong>Date:</strong>2014/1-2014/5<br>项目描述：包含用户管理模块，部门管理模块，职位管理模块，员工管理模块，公告模块，文档管理等。<br>本人负责内容：员工管理模块(员工查询，员工excel导出)、文档管理模块(上传文档，文档下载)。<br>责任描述：<br>本人负责模块的技术要点：<br>1&gt;员工管理模块<br>1.1利用POI技术导出员工资料excel<br>2&gt;文档管理模块<br>2.1上传文档：利用公用的文件上传类<br>2.2文档下载：通过运用Struts2 技术下载文档<br>3&gt;员工的添加、修改、多条件分页查询、删除、审核。</p>
+<p><strong>Note:</strong>  网上购物商城(b2c)<br> <strong>Date:</strong> 2013/10-2014/1<br>项目描述：是一套商品交易系统，整个系统包含二个子系统，分别是面向前端客户的商品交易系统，实现客户购买商品的需求；实现商品后台管理，实现业务订单处理及对站内各种信息进行管理的需求本人负责内容：本人负责注册、登录、用户注销、等模块的代码实现与测试。<br>责任描述：<br>本人负责模块的技术要点：<br>注册功能 密码利用md5密文加密，判断登录名是否已经存在，如果存在提示用户该用户名已存在。填充用户对象里面缺失的信息，比如激活码、电子邮件等.发送电子邮件到用户提供的电子邮件提示。登陆功能 使用ajax异步登录</p>
+</blockquote>
+
+      
+    </div>
+    
+  </div>
+  
+    
+
+
+  
+</article>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"　| Len的技术空间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <div id="comment-box" ></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="about/index.html" data-title="" data-url="http://len.github.io/about/index.html"></div>
+    <script>
+        var duoshuoQuery = {short_name:"lenwang"};
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src =  'http://moxfive.xyz/resources/embed.js';
+            s.async = true; s.charset = 'UTF-8';
+            (d.head || d.body).appendChild(s);
+        }
+
+        
+    </script>
+    
+    <script> loadComment(); </script>
+
+</div>
+    
+
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 Len
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  </div>
+</body>
+</html>
